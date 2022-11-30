@@ -1,0 +1,53 @@
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+.register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+input{
+    padding: 10px;
+    margin: 2px;
+    width: 300px;
+}
+.submit-button{
+    background-color: aquamarine;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 75px;
+    width: 200px;
+    text-align: center;
+}
+.books{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.book{
+    border-style: solid;
+    border-radius: 10px;
+    width: fit-content;
+    height: 50px;
+    margin: 50px;
+    padding: 10px
+
+}
+.book-button{
+    position: relative;
+    margin-top: 70px;
+    
+}
